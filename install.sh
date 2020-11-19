@@ -11,6 +11,7 @@ cp -rf ./zsh/zsh-syntax-highlighting $HOME/.oh-my-zsh/plugins/
 cp -rf ./zsh/zsh-autosuggestions $HOME/.oh-my-zsh/plugins/
 
 cp -f ./zsh/oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
+echo "export TERM=xterm-256color" >> $HOME/.zshrc
 
 
 echo -e "\033[32m- [Info] You may need to resetting the ENV...\033[0m"
