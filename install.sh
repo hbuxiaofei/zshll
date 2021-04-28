@@ -14,7 +14,7 @@ cp -f ./zsh/oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 echo "export TERM=xterm-256color" >> $HOME/.zshrc
 
 mkdir -p $HOME/.zsh/completions
-echo "fpath=($HOME/.zsh/completions \$fpath)" >> $HOME/.zshrc
+echo "fpath=(\$HOME/.zsh/completions \$fpath)" >> $HOME/.zshrc
 echo "autoload -U compinit && compinit" >> $HOME/.zshrc
 
 
